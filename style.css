@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background: #a4a4ef
+}
+h1 { text-align: center }
+
+img {
+    border: none;
+}
+
+img.inline {
+    float: right;
+/* border: black 2px  solid; */
+};
+
+address {
+    border-top: black 2px solid;
+}
+
+canvas {
+    border: 1px solid black;
+}
+

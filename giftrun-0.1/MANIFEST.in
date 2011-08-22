@@ -1,0 +1,7 @@
+include giftrun.py
+include gamesys.py
+include README.txt
+include LICENSE.txt
+include data/*/*
+include setup.py
+include MANIFEST.in
