@@ -53,7 +53,7 @@ class RenderZSort(pygame.sprite.RenderUpdates):
             newrect = surface_blit(s.image, s.rect)
             #s.post_draw(surface)
             surface_blit(s.image, s.rect)
-            if r is not 0:
+            if r != 0:
                 dirty_append(newrect.union(r))
             else:
                 dirty_append(newrect)
