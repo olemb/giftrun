@@ -43,8 +43,7 @@ class RenderZSort(pygame.sprite.RenderUpdates):
     def draw(self, surface):
         "draw all sprites onto a surface in z order (lowest z first)"
         spritedict = self.spritedict
-        items = spritedict.items()
-        items.sort(lambda a,b: cmp(a[0].z,b[0].z))
+        items = sorted(spritedict.items(), key=lambda a: a[0].z)
         surface_blit = surface.blit
         dirty = self.lostsprites
         self.lostsprites = []
