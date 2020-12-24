@@ -1,5 +1,5 @@
-Gifrun
-======
+Giftrun
+=======
 
 Play now: http://olemb.github.io/giftrun/
 
